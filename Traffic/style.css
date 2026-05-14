@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#1e1e1e;
+    font-family:Arial,sans-serif;
+}
+
+.container{
+    text-align:center;
+}
+
+.traffic-box{
+    width:120px;
+    background:#222;
+    padding:20px;
+    border-radius:25px;
+}
+
+.light{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:#444;
+    margin:15px auto;
+    transition:.4s;
+}
+
+.red.active{
+    background:red;
+    box-shadow:0 0 30px red;
+}
+
+.yellow.active{
+    background:gold;
+    box-shadow:0 0 30px gold;
+}
+
+.green.active{
+    background:lime;
+    box-shadow:0 0 30px lime;
+}
